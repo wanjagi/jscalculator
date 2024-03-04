@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(0, 0%, 95%)
+
+}
+
+button{
+    width: 100ox;
+    height: 100px;
+    border-radius: 50px;
+    border: none;
+    background-color: hsl(0, 0%, 8%);
+    color: white;
+    font-size: 3rem;
+    cursor: pointer;
+    margin: 10px;
+    margin-right: 30px;
+}
+
+.buttons{
+    padding: 25px;
+}
+
+.container{
+    background-color: hsl(0, 0%, 8%);
+    border-radius: 15px;
+    max-width: 500px;
+    overflow: hidden;
+}
+
+.display{
+    width: 100%;
+    padding: 20px;
+    font-size: 5rem;
+    text-align: left;
+    border: none;
+    background-color: hsl(0, 0%, 20%);
+}
+#display{
+    width: 100%;
+    padding: 20px;
+    font-size: 5rem;
+    text-align: left;
+    border: none;
+    background-color: hsl(0, 0%, 20%);
+    color: white;
+}
